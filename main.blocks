@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="ziJ6e5_0OBKu2uL+[-h1" x="0" y="0"></block><block type="device_forever" id="G3^bZefl6SR#Xsme5g`;" x="205" y="0"><statement name="HANDLER"><block type="controls_if" id="V|zYjZ1K8DgLi~aoXXQQ"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="Button_status" id="V)g#yW7Eh(HQ!sH!_^TY"><field name="button">EMF_Button.R_BUTTON</field><field name="status">Button_State.JOYSTICK_PRESS_DOWN</field></block></value><statement name="DO0"><block type="device_show_leds" id="93V$o@@iD^Ls-i|6gW(/"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . # .
+        `</field><next><block type="Vibrate" id="vx-.}+?CwSUqsGFoI7nb"><value name="intensity"><shadow type="math_number_minmax" id="s?)$El{3,:n4aduKm{;1"><mutation min="0" max="255" label="Intensity" precision="0"></mutation><field name="SLIDER">103</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="tVtd2o}Za=HmCtKyUa7b"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="Button_status" id="Lo82b($.h^$f%IWcz/?D"><field name="button">EMF_Button.L_BUTTON</field><field name="status">Button_State.JOYSTICK_PRESS_DOWN</field></block></value><statement name="DO0"><block type="device_show_leds" id="j--TbSxo0DqbEFxbB582"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # . . .
+        `</field></block></statement><next><block type="controls_if" id="Xf7G(b+[fSe#I0WsE2xo"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="Button_status" id="i%_;|s-L_.)^8R@jI!1]"><field name="button">EMF_Button.JOYSTICK_BUTTON_LEFT</field><field name="status">Button_State.JOYSTICK_PRESS_DOWN</field></block></value><statement name="DO0"><block type="device_show_leds" id="@.D9.]-V+Yn|%|3go6@n"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="],p0w_`$Q!7)l+/F8N$R"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="Button_status" id="^hsNi236qD,DHB?haGz?"><field name="button">EMF_Button.JOYSTICK_BUTTON_RIGHT</field><field name="status">Button_State.JOYSTICK_PRESS_DOWN</field></block></value><statement name="DO0"><block type="device_show_leds" id="!isUWlnz,=SYcc5.22Ba"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . # 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></next></block></next></block></next></block></statement></block><block type="Stick_position" id="4=tz5;MfjUEl)d__]N%j" disabled="true" x="208" y="757"><field name="stick">Stick_Id.STICK_RIGHT</field><field name="axis">Stick_Axis.STICK_Y</field></block></xml>
