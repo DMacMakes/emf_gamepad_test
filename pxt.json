@@ -5,7 +5,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "EMF_Gamepad": "github:DMacMakes/emakefun-microbit-gamepad-makecode-en#3b579229add3a26624bfdc079ae76169092f03a6"
+        "EMF_Gamepad": "github:DMacMakes/emakefun-microbit-gamepad-makecode-en#2b2c47b9342017dc07098bbeb7bd933496fb3006"
     },
     "files": [
         "main.blocks",

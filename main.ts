@@ -7,7 +7,6 @@ basic.forever(function () {
             . . . . .
             . . . # .
             `)
-        EMF_Gamepad.Vibrate(103)
     }
     if (EMF_Gamepad.Button_status(EMF_Button.L_BUTTON, Button_State.JOYSTICK_PRESS_DOWN)) {
         basic.showLeds(`
@@ -35,5 +34,30 @@ basic.forever(function () {
             . . . . .
             . . . . .
             `)
+    }
+    if (input.buttonIsPressed(Button.A)) {
+        basic.showLeds(`
+            # . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+    if (input.buttonIsPressed(Button.B)) {
+        basic.showLeds(`
+            . . . . #
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+    if (EMF_Gamepad.Stick_position(Stick_Id.STICK_LEFT, Stick_Axis.STICK_Y) < 98) {
+        serial.writeLine("go down")
+    } else if (EMF_Gamepad.Stick_position(Stick_Id.STICK_LEFT, Stick_Axis.STICK_Y) > 148) {
+        serial.writeLine("go up")
+    } else {
+    	
     }
 })
